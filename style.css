@@ -1,3 +1,4 @@
+/* <<<<<<<SETUP>>>>>> */
 *{
     font-family: sans-serif;
     box-sizing: border-box;
@@ -5,13 +6,14 @@
     position: relative;
     margin: 0;
     --gradient:linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
-
 }
+/* -------MODEFICATION-------- */
 body{
     background-color: rgba(65, 37, 103, 1);
     flex-direction: column;
     white-space: nowrap;
     overflow-x: hidden;
+    color: white;
     display: flex;
 }
 header{
@@ -21,26 +23,67 @@ header{
 }
 button{
     background:var(--gradient);
+    justify-content: center;
     border-radius: 10px ;
+    align-items: center;
     padding: 6px 16px;
     color: white;
+    display: flex;
     border: none;
+    gap: 8px;
 }
 a{
     text-decoration: none;
     color: white;
 }
+/* --------SETUP-CLASS'S-------- */
 .df{
     display: flex;
     align-items: center;
     justify-content:space-between;
+}
+.df-c{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bt-1{
+    background: transparent;
+    color: rgba(0, 255, 136, 1);
+    border: 1px solid rgba(0, 255, 136, 1);
 }
 .sp-1{
     background: var(--gradient);
     background-clip: text;
     color: transparent;
 }
+.sp-2{
+    background: var(--gradient);
+    padding: 100px 135px;
+    border-radius: 50%;
+    border: 10px solid rgba(42, 24, 108, 1);
+    transform: scale(.9);
+}
+.sp-3{
+    padding: 8px 16px;
+    background: #00FF88;
+    color: black;
+    position: absolute;
+    left: 55.6%;
+    top: 18%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 255, 136, 0.5);
+}
 .gp-1{
+    justify-content: center;
+    gap: 20px;
+}
+/* -------BANNER------ */
+.ban{
+    background-image: url("./assets/hero-bg.png");
+    background-position: 50% 0%;
+    height: 760px;
+    border: 1px solid crimson;
     justify-content: center;
     gap: 20px;
 }
