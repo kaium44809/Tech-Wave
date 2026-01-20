@@ -23,7 +23,12 @@ header {
     color: white;
     height: 92px;
 }
-
+footer{
+    height: 412px;
+    background-image: url("./assets/footer-bg.png");
+    justify-content: center;
+    gap: 25px;
+}
 button {
     background: var(--gradient);
     justify-content: center;
@@ -260,4 +265,11 @@ p {
 .logo img{
     padding: 10px;
     height: 33px;
+}
+/* -------footer------ */
+footer div span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
