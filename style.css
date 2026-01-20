@@ -49,7 +49,13 @@ h1 {
     font-size: 48px;
     font-weight: 800;
 }
-
+h2{
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+}
 p {
     font-size: 16px;
     opacity: 0.8;
@@ -105,6 +111,11 @@ p {
 }
 .pd-1{
     padding: 24px;
+}
+.jl{
+    align-items: left;
+    justify-content:left;
+    text-align: left;
 }
 /* -------BANNER------ */
 .ban {
@@ -231,4 +242,22 @@ p {
 .alex{
     padding: 40px;
     margin: 40px 0px;
+    background-color: rgba(83, 60, 114, 1);
+    border-radius: 40px;
+}
+.kumar{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.logo span{
+    border-radius: 50%;
+    border: 1px solid rgb(64, 50, 78);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    padding: 10px;
+    height: 33px;
 }
